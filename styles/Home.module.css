@@ -114,3 +114,24 @@
     flex-direction: column;
   }
 }
+
+.intro {
+  font-size: 32px;
+}
+
+.name {
+  color: #A7F3FF;
+  font-size: 100px; 
+}
+
+.subtext {
+  font-size: 24px;
+}
+
+.sectionHeaders {
+  font-size: 48px;
+}
+
+.contactText {
+  font-size: 36px
+}
