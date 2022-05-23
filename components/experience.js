@@ -1,7 +1,9 @@
 import React from "react";
+import Accordion from "@mui/material/Accordion";
 import Image from "next/image";
 import data from "../data/experience.json";
 
+import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
 import Emmes from "../images/icons/emmes.png";
 import Pupil from "../images/icons/pupil.png";
 import Hack4Impact from "../images/icons/hack4impact.png";
@@ -10,8 +12,8 @@ function experience() {
   let items = [];
   let images = {
     Emmes: { img: Emmes, width: "304px", height: "123px" },
-    Pupil: { img: Pupil, width: "179px", height: "179px" },
-    Hack4Impact: { img: Hack4Impact, width: "128px", height: "156px" },
+    Pupil: { img: Pupil, width: "128px", height: "156px" },
+    Hack4Impact: { img: Hack4Impact, width: "179px", height: "179px" },
   };
 
   //need to add collapsable component here
@@ -37,20 +39,25 @@ function experience() {
 
     items.push(
       <>
-        <div>
-          <Image
-            src={images[experience.work].img}
-            alt={experience.work}
-            width={images[experience.work].width}
-            height={images[experience.work].height}
-            layout="fixed"
-          />
-        </div>
         <div className="experience-divs">
-          <h2>{experience.work}</h2>
-          <h2>{experience.duration}</h2>
-          <h2>{experience.title}</h2>
-          {descriptionItems}
+          <div>
+            <div>
+              <Image
+                src={images[experience.work].img}
+                alt={experience.work}
+                width={images[experience.work].width}
+                height={images[experience.work].height}
+                layout="fixed"
+              />
+            </div>
+            <div>
+              <h2>{experience.work}</h2>
+              <h2>{experience.duration}</h2>
+              <h2>{experience.title}</h2>
+            </div>
+            <AddCircleOutlineIcon />
+          </div>
+          <div>{descriptionItems}</div>
         </div>
         <br />
       </>

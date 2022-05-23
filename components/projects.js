@@ -1,4 +1,7 @@
 import React from "react";
+import Accordion from "@mui/material/Accordion";
+import FolderIcon from "@mui/icons-material/Folder";
+import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
 import data from "../data/project.json";
 
 function projects() {
@@ -9,12 +12,18 @@ function projects() {
     items.push(
       <>
         <div className="project-divs">
-          <h2>{project.title}</h2>
-          <h2>{project.smallDescription}</h2>
+          <div>
+            <FolderIcon />
+            <div>
+              <h2>{project.title}</h2>
+              <h2>{project.smallDescription}</h2>
+            </div>
+            <AddCircleOutlineIcon />
+          </div>
           <h2>{project.link}</h2>
           <h2>{project.githubLink}</h2>
         </div>
-        <br/>
+        <br />
       </>
     )
   );
