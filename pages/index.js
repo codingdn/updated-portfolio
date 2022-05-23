@@ -2,6 +2,9 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Header from "../components/header";
+import Experience from "../components/experience";
+import Projects from "../components/projects";
+
 import myPic from "../images/my_picture.png";
 import umd from "../images/maryland.png";
 
@@ -74,11 +77,13 @@ export default function Home() {
         {/**Experience */}
         <div id="experience">
           <h2 className={styles.sectionHeaders}>Experience</h2>
+          <Experience/>
         </div>
 
         {/**Projects */}
         <div id="projects">
           <h2 className={styles.sectionHeaders}>Projects</h2>
+          <Projects/>
         </div>
 
         {/**Contact */}

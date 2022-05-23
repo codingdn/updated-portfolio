@@ -1,5 +1,5 @@
 {
-  "experience": [
+  "experiences": [
     {
       "work": "Emmes",
       "duration": "Nov 2019 - Aug 2022",
@@ -25,6 +25,7 @@
       "duration": "Sep 2020 - Present",
       "title": "Various Positions",
       "multiplePositions": true,
+      "description": [],
       "positions": [
         {
           "title": "Co-Executive Director",
