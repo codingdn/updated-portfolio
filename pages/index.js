@@ -55,7 +55,7 @@ export default function Home() {
         <br />
 
         {/**About */}
-        <div id="about">
+        <div id="about" className={styles.sections}>
           <h2 className={styles.sectionHeaders}>About</h2>
           <div className="float-container">
             <div className="float-child">
@@ -87,19 +87,19 @@ export default function Home() {
         </div>
 
         {/**Experience */}
-        <div id="experience">
+        <div id="experience" className={styles.sections}>
           <h2 className={styles.sectionHeaders}>Experience</h2>
           <Experience />
         </div>
 
         {/**Projects */}
-        <div id="projects">
+        <div id="projects" className={styles.sections}>
           <h2 className={styles.sectionHeaders}>Projects</h2>
           <Projects />
         </div>
 
         {/**Contact */}
-        <div id="contact">
+        <div id="contact" className={styles.sections}>
           <h2 className={styles.sectionHeaders}>Contact</h2>
           <h3 className={styles.contactText}>
             Want to get into contact with me?
