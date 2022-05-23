@@ -110,7 +110,7 @@ export default function Home() {
             to contact met at:
           </h3>
           <br />
-          <h3 className={styles.email}>dn11601@gmail.com</h3>
+          <h3 className={styles.email}><a href = "mailto: dn11601@gmail.com.com">dn11601@gmail.com</a></h3>
         </div>
       </main>
     </div>
