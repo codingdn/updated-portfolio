@@ -13,12 +13,12 @@ function projects() {
       <>
         <div className="project-divs">
           <div>
-            <FolderIcon />
+            <FolderIcon sx={{ fontSize: 85 }}/>
             <div>
               <h2>{project.title}</h2>
               <h2>{project.smallDescription}</h2>
             </div>
-            <AddCircleOutlineIcon />
+            <AddCircleOutlineIcon sx={{ fontSize: 60 }}/>
           </div>
           <h2>{project.link}</h2>
           <h2>{project.githubLink}</h2>

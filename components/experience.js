@@ -55,7 +55,7 @@ function experience() {
               <h2>{experience.duration}</h2>
               <h2>{experience.title}</h2>
             </div>
-            <AddCircleOutlineIcon />
+            <AddCircleOutlineIcon sx={{ fontSize: 60 }}/>
           </div>
           <div>{descriptionItems}</div>
         </div>

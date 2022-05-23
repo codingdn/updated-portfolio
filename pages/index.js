@@ -33,9 +33,9 @@ export default function Home() {
               Aspiring Software Developer. Eternal Learner.
             </h2>
             <div id="social-links">
-              <LinkedInIcon/>
-              <GitHubIcon/>
-              <EmailIcon/>
+              <LinkedInIcon sx={{ fontSize: 40 }}/>
+              <GitHubIcon sx={{ fontSize: 40 }}/>
+              <EmailIcon sx={{ fontSize: 40 }}/>
             </div>
           </div>
           <div className="float-child">
