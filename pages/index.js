@@ -8,6 +8,10 @@ import Projects from "../components/projects";
 import myPic from "../images/my_picture.png";
 import umd from "../images/maryland.png";
 
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import EmailIcon from '@mui/icons-material/Email';
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -28,6 +32,11 @@ export default function Home() {
             <h2 className={styles.subtext}>
               Aspiring Software Developer. Eternal Learner.
             </h2>
+            <div id="social-links">
+              <LinkedInIcon/>
+              <GitHubIcon/>
+              <EmailIcon/>
+            </div>
           </div>
           <div className="float-child">
             <Image
