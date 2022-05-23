@@ -8,7 +8,8 @@
         "Developed translation features for a web application that helps professionals organize medical studies to support over 20+ languages",
         "Worked in an Agile environment using Jira with a tech stack revolving around React, GraphQL, PostgreSQL, and AWS"
       ],
-      "multiplePositions": false
+      "multiplePositions": false,
+      "imgSrc": "/emmes.png"
     },
     {
       "work": "Pupil",
@@ -18,7 +19,8 @@
         "Develop responsive UI components in React Native to launch a mobile application that helps young professionals find mentors",
         "Revamped home website with updated user interface for news feed"
       ],
-      "multiplePositions": false
+      "multiplePositions": false,
+      "imgSrc": "/pupil.png"
     },
     {
       "work": "Hack4Impact",
@@ -26,6 +28,7 @@
       "title": "Various Positions",
       "multiplePositions": true,
       "description": [],
+      "imgSrc": "/hack4impact.png",
       "positions": [
         {
           "title": "Co-Executive Director",

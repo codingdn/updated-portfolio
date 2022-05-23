@@ -8,7 +8,7 @@ function projects() {
   data.projects.forEach((project) =>
     items.push(
       <>
-        <div>
+        <div className="project-divs">
           <h2>{project.title}</h2>
           <h2>{project.smallDescription}</h2>
           <h2>{project.link}</h2>
