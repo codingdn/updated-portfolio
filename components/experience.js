@@ -1,5 +1,4 @@
 import React from "react";
-import Accordion from "@mui/material/Accordion";
 import Image from "next/image";
 import data from "../data/experience.json";
 
@@ -7,6 +6,10 @@ import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
 import Emmes from "../images/icons/emmes.png";
 import Pupil from "../images/icons/pupil.png";
 import Hack4Impact from "../images/icons/hack4impact.png";
+
+import Accordion from "@mui/material/Accordion";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import AccordionDetails from "@mui/material/AccordionDetails";
 
 function experience() {
   let items = [];
@@ -39,8 +42,12 @@ function experience() {
 
     items.push(
       <>
-        <div className="experience-divs">
-          <div>
+        <Accordion className="experience-divs">
+          <AccordionSummary
+            expandIcon={<AddCircleOutlineIcon sx={{ fontSize: 40 }} />}
+            aria-controls="panel1a-content"
+            id="panel1a-header"
+          >
             <div>
               <Image
                 src={images[experience.work].img}
@@ -55,10 +62,9 @@ function experience() {
               <h2>{experience.duration}</h2>
               <h2>{experience.title}</h2>
             </div>
-            <AddCircleOutlineIcon sx={{ fontSize: 60 }}/>
-          </div>
-          <div>{descriptionItems}</div>
-        </div>
+          </AccordionSummary>
+          <AccordionDetails>{descriptionItems}</AccordionDetails>
+        </Accordion>
         <br />
       </>
     );
