@@ -1,0 +1,62 @@
+{
+  "experience": [
+    {
+      "work": "Emmes",
+      "duration": "Nov 2019 - Aug 2022",
+      "title": "Software Development Intern",
+      "description": [
+        "Developed translation features for a web application that helps professionals organize medical studies to support over 20+ languages",
+        "Worked in an Agile environment using Jira with a tech stack revolving around React, GraphQL, PostgreSQL, and AWS"
+      ],
+      "multiplePositions": false
+    },
+    {
+      "work": "Pupil",
+      "duration": "Oct 2021 - Mar 2022",
+      "title": "Software Development Intern",
+      "description": [
+        "Develop responsive UI components in React Native to launch a mobile application that helps young professionals find mentors",
+        "Revamped home website with updated user interface for news feed"
+      ],
+      "multiplePositions": false
+    },
+    {
+      "work": "Hack4Impact",
+      "duration": "Sep 2020 - Present",
+      "title": "Various Positions",
+      "multiplePositions": true,
+      "positions": [
+        {
+          "title": "Co-Executive Director",
+          "duration": "Apr 2022 - Present",
+          "description": [
+            "Responsible for general oversight of organization operations and its members"
+          ]
+        },
+        {
+          "title": "Director of Product",
+          "duration": "Apr 2021 - Apr 2022",
+          "description": [
+            "Trained incoming class of 5 project managers per semester on agile methodology for project management",
+            "Conducted weekly check-ins for project managers to gauge progress of products being developed for non-profit partners"
+          ]
+        },
+        {
+          "title": "Product Manager",
+          "duration": "Jan 2021 - Apr 2022",
+          "description": [
+            "Deployed agile methodology to plan out work sprints and assign development tasks accordingly to members of the project team",
+            "Worked in a group of 9 members for each project and facilitated both team and non-profit partner meetings"
+          ]
+        },
+        {
+          "title": "Software Engineer",
+          "duration": "Sep 2020 - Dec 2020",
+          "description": [
+            "Worked in a team of 8 to develop React components for a website to be delivered to WISE-E (Women in Science, Engineering, and the Environment), a non-profit initiative to connect women interested in STEM to various resources"
+          ]
+        }
+      ]
+    }
+  ]
+}
