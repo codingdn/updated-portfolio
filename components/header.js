@@ -14,7 +14,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="mx-auto px-2 py-6 md:py-8 float-container">
+    <div className="mx-auto px-2 py-6 md:py-8 float-container-header">
       <div className="float-child">
         <Link href="#header" scroll={false}>
           <Image

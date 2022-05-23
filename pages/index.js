@@ -21,34 +21,32 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Header />
       <main>
-        <Header />
-
         {/** header*/}
-        <div id="header" className="float-container">
-          <div className="float-child">
-            <h2 className={styles.intro}>Hi There!! I'm</h2>
-            <h1 className={styles.name}>Daneil Nguyen</h1>
-            <h2 className={styles.subtext}>
-              Aspiring Software Developer. Eternal Learner.
-            </h2>
-            <div id="social-links">
-              <LinkedInIcon
-                className="iconColors"
-                sx={{ fontSize: 40 }}
-              />
-              <GitHubIcon className="iconColors" sx={{ fontSize: 40 }} />
-              <EmailIcon className="iconColors" sx={{ fontSize: 40 }} />
+        <div className={styles.sections}>
+          <div id="header" className="float-container">
+            <div className="float-child">
+              <h2 className={styles.intro}>Hi There!! I'm</h2>
+              <h1 className={styles.name}>Daneil Nguyen</h1>
+              <h2 className={styles.subtext}>
+                Aspiring Software Developer. Eternal Learner.
+              </h2>
+              <div id="social-links">
+                <LinkedInIcon className="iconColors" sx={{ fontSize: 40 }} />
+                <GitHubIcon className="iconColors" sx={{ fontSize: 40 }} />
+                <EmailIcon className="iconColors" sx={{ fontSize: 40 }} />
+              </div>
             </div>
-          </div>
-          <div className="float-child">
-            <Image
-              src={myPic}
-              alt="Picture of me"
-              width="389px"
-              height="356px"
-              layout="fixed" // layout="fill", layout="intrinsic"
-            />
+            <div className="float-child">
+              <Image
+                src={myPic}
+                alt="Picture of me"
+                width="389px"
+                height="356px"
+                layout="fixed" // layout="fill", layout="intrinsic"
+              />
+            </div>
           </div>
         </div>
 
@@ -110,7 +108,9 @@ export default function Home() {
             to contact met at:
           </h3>
           <br />
-          <h3 className={styles.email}><a href = "mailto: dn11601@gmail.com.com">dn11601@gmail.com</a></h3>
+          <h3 className={styles.email}>
+            <a href="mailto: dn11601@gmail.com.com">dn11601@gmail.com</a>
+          </h3>
         </div>
       </main>
     </div>

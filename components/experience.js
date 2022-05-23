@@ -53,20 +53,22 @@ function experience() {
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
-            <div>
-              <Image
-                src={images[experience.work].img}
-                alt={experience.work}
-                width={images[experience.work].width}
-                height={images[experience.work].height}
-                layout="fixed"
-              />
-            </div>
-            <div>
-              <h2 className="title">
-                {experience.work} - {experience.title}
-              </h2>
-              <h2 className="experience-duration">{experience.duration}</h2>
+            <div className="float-container-experience">
+              <div className="float-child"> 
+                <Image
+                  src={images[experience.work].img}
+                  alt={experience.work}
+                  width={images[experience.work].width}
+                  height={images[experience.work].height}
+                  layout="fixed"
+                />
+              </div>
+              <div className="float-child">
+                <h2 className="title">
+                  {experience.work} - {experience.title}
+                </h2>
+                <h2 className="experience-duration">{experience.duration}</h2>
+              </div>
             </div>
           </AccordionSummary>
           <AccordionDetails>{descriptionItems}</AccordionDetails>

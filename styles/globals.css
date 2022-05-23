@@ -28,6 +28,16 @@ button {
 
 .float-container {
   display: grid;
+  grid-template-columns: 4fr 2fr;
+}
+
+.float-container-experience {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.float-container-header {
+  display: grid;
   grid-template-columns: 1fr 2fr;
 }
 
