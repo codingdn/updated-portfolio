@@ -16,13 +16,18 @@ function projects() {
         <div className="project-divs">
           <Accordion className="project-divs">
             <AccordionSummary
-              expandIcon={<AddCircleOutlineIcon sx={{ fontSize: 40 }} />}
+              expandIcon={
+                <AddCircleOutlineIcon
+                  sx={{ fontSize: 40 }}
+                  className="iconColors"
+                />
+              }
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
-              <FolderIcon sx={{ fontSize: 60 }} />
+              <FolderIcon sx={{ fontSize: 60 }} className="iconColors" />
               <div>
-                <h2>{project.title}</h2>
+                <h2 className="title">{project.title}</h2>
                 <h3>{project.smallDescription}</h3>
               </div>
             </AccordionSummary>

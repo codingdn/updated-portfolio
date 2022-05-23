@@ -8,9 +8,9 @@ import Projects from "../components/projects";
 import myPic from "../images/my_picture.png";
 import umd from "../images/maryland.png";
 
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import EmailIcon from '@mui/icons-material/Email';
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import EmailIcon from "@mui/icons-material/Email";
 
 export default function Home() {
   return (
@@ -33,9 +33,12 @@ export default function Home() {
               Aspiring Software Developer. Eternal Learner.
             </h2>
             <div id="social-links">
-              <LinkedInIcon sx={{ fontSize: 40 }}/>
-              <GitHubIcon sx={{ fontSize: 40 }}/>
-              <EmailIcon sx={{ fontSize: 40 }}/>
+              <LinkedInIcon
+                className="iconColors"
+                sx={{ fontSize: 40 }}
+              />
+              <GitHubIcon className="iconColors" sx={{ fontSize: 40 }} />
+              <EmailIcon className="iconColors" sx={{ fontSize: 40 }} />
             </div>
           </div>
           <div className="float-child">
@@ -86,13 +89,13 @@ export default function Home() {
         {/**Experience */}
         <div id="experience">
           <h2 className={styles.sectionHeaders}>Experience</h2>
-          <Experience/>
+          <Experience />
         </div>
 
         {/**Projects */}
         <div id="projects">
           <h2 className={styles.sectionHeaders}>Projects</h2>
-          <Projects/>
+          <Projects />
         </div>
 
         {/**Contact */}
@@ -107,7 +110,7 @@ export default function Home() {
             to contact met at:
           </h3>
           <br />
-          <h3 className={styles.contactText}>dn11601@gmail.com</h3>
+          <h3 className={styles.email}>dn11601@gmail.com</h3>
         </div>
       </main>
     </div>

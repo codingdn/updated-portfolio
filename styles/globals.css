@@ -6,10 +6,10 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background-color: #0E1930;
-  font-family: 'Source Code Pro', monospace;
+  background-color: #0e1930;
+  font-family: "Source Code Pro", monospace;
   font-weight: "bold";
-  color: #ffffff
+  color: #ffffff;
 }
 
 a {
@@ -27,26 +27,37 @@ button {
 }
 
 .float-container {
-  display: grid; 
-  grid-template-columns: 1fr 2fr; 
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
 .float-child {
-  flex: 1,
+  flex: 1;
 }
 
 .project-divs {
-  background-color: #2D3A55;
-  font-family: 'Source Code Pro', monospace;
+  background-color: #2d3a55;
+  font-family: "Source Code Pro", monospace;
   font-weight: "bold";
-  color: #ffffff
+  color: #ffffff;
 }
 
 .experience-divs {
-  background-color: #2D3A55;
-  font-family: 'Source Code Pro', monospace;
+  background-color: #2d3a55;
+  font-family: "Source Code Pro", monospace;
   font-weight: "bold";
-  color: #ffffff
+  color: #ffffff;
 }
 
+.title {
+  font-size: 36px;
+}
 
+.experience-duration {
+  color: #a7f3ff;
+  font-size: 30px;
+}
+
+.iconColors {
+  color: #a7f3ff;
+}

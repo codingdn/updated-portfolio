@@ -15,8 +15,8 @@ function experience() {
   let items = [];
   let images = {
     Emmes: { img: Emmes, width: "304px", height: "123px" },
-    Pupil: { img: Pupil, width: "128px", height: "156px" },
-    Hack4Impact: { img: Hack4Impact, width: "179px", height: "179px" },
+    Pupil: { img: Pupil, width: "100px", height: "123px" },
+    Hack4Impact: { img: Hack4Impact, width: "123px", height: "123px" },
   };
 
   //need to add collapsable component here
@@ -44,7 +44,12 @@ function experience() {
       <>
         <Accordion className="experience-divs">
           <AccordionSummary
-            expandIcon={<AddCircleOutlineIcon sx={{ fontSize: 40 }} />}
+            expandIcon={
+              <AddCircleOutlineIcon
+                sx={{ fontSize: 40 }}
+                className="iconColors"
+              />
+            }
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
@@ -58,9 +63,10 @@ function experience() {
               />
             </div>
             <div>
-              <h2>{experience.work}</h2>
-              <h2>{experience.duration}</h2>
-              <h2>{experience.title}</h2>
+              <h2 className="title">
+                {experience.work} - {experience.title}
+              </h2>
+              <h2 className="experience-duration">{experience.duration}</h2>
             </div>
           </AccordionSummary>
           <AccordionDetails>{descriptionItems}</AccordionDetails>
