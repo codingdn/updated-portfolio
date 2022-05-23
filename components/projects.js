@@ -1,5 +1,8 @@
 import React from "react";
 import Accordion from "@mui/material/Accordion";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import AccordionDetails from "@mui/material/AccordionDetails";
+import Typography from "@mui/material/Typography";
 import FolderIcon from "@mui/icons-material/Folder";
 import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
 import data from "../data/project.json";
@@ -7,21 +10,27 @@ import data from "../data/project.json";
 function projects() {
   let items = [];
 
-  //need to add collapsable component here
   data.projects.forEach((project) =>
     items.push(
       <>
         <div className="project-divs">
-          <div>
-            <FolderIcon sx={{ fontSize: 85 }}/>
-            <div>
-              <h2>{project.title}</h2>
-              <h2>{project.smallDescription}</h2>
-            </div>
-            <AddCircleOutlineIcon sx={{ fontSize: 60 }}/>
-          </div>
-          <h2>{project.link}</h2>
-          <h2>{project.githubLink}</h2>
+          <Accordion className="project-divs">
+            <AccordionSummary
+              expandIcon={<AddCircleOutlineIcon sx={{ fontSize: 40 }} />}
+              aria-controls="panel1a-content"
+              id="panel1a-header"
+            >
+              <FolderIcon sx={{ fontSize: 60 }} />
+              <div>
+                <h2>{project.title}</h2>
+                <h3>{project.smallDescription}</h3>
+              </div>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography>{project.link}</Typography>
+              <Typography>{project.githubLink}</Typography>
+            </AccordionDetails>
+          </Accordion>
         </div>
         <br />
       </>

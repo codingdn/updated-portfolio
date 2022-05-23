@@ -37,10 +37,16 @@ button {
 
 .project-divs {
   background-color: #2D3A55;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: "bold";
+  color: #ffffff
 }
 
 .experience-divs {
   background-color: #2D3A55;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: "bold";
+  color: #ffffff
 }
 
 
