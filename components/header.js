@@ -27,11 +27,11 @@ export default function Navbar() {
         </Link>
       </div>
       <div className="flex  md:flex-row justify-between float-child">
-          <Link href="#about" scroll={false}>
-            <button>
-              <a>About</a>
-            </button>
-          </Link>
+        <Link href="#about" scroll={false}>
+          <button>
+            <a>About</a>
+          </button>
+        </Link>
         <Link href="#experience" scroll={false}>
           <button>
             <a>Experience</a>
@@ -47,7 +47,11 @@ export default function Navbar() {
             <a>Contact</a>
           </button>
         </Link>
-        <button>Resume</button>
+        <button className="resume-button">
+          <a href="https://drive.google.com/file/d/1ks4cc_6NgRBpCGqORmz6W9LW97fbnT3c/view?usp=sharing">
+            Resume
+          </a>
+        </button>
       </div>
     </div>
   );
