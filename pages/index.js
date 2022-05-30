@@ -21,7 +21,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header />
+      <Header/>
       <main>
         <div className={styles.sections}>
           <div id="header" className="float-container">
@@ -32,13 +32,25 @@ export default function Home() {
                 Aspiring Software Developer. Eternal Learner.
               </h2>
               <div id="social-links">
-                <a href="https://www.linkedin.com/in/daneil-nguyen/" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.linkedin.com/in/daneil-nguyen/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <LinkedInIcon className="iconColors" sx={{ fontSize: 50 }} />
                 </a>
-                <a href="https://github.com/codingdn" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://github.com/codingdn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <GitHubIcon className="iconColors" sx={{ fontSize: 50 }} />
                 </a>
-                <a href="mailto: dn11601@gmail.com.com" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="mailto: dn11601@gmail.com.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <EmailIcon className="iconColors" sx={{ fontSize: 50 }} />
                 </a>
               </div>
