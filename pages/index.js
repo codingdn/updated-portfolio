@@ -33,9 +33,15 @@ export default function Home() {
                 Aspiring Software Developer. Eternal Learner.
               </h2>
               <div id="social-links">
-                <LinkedInIcon className="iconColors" sx={{ fontSize: 40 }} />
-                <GitHubIcon className="iconColors" sx={{ fontSize: 40 }} />
-                <EmailIcon className="iconColors" sx={{ fontSize: 40 }} />
+                <a href="https://www.linkedin.com/in/daneil-nguyen/">
+                  <LinkedInIcon className="iconColors" sx={{ fontSize: 50 }} />
+                </a>
+                <a href="https://github.com/codingdn">
+                  <GitHubIcon className="iconColors" sx={{ fontSize: 50 }} />
+                </a>
+                <a href="mailto: dn11601@gmail.com.com">
+                  <EmailIcon className="iconColors" sx={{ fontSize: 50 }} />
+                </a>
               </div>
             </div>
             <div className="float-child">

@@ -16,7 +16,7 @@ export default function Navbar() {
   return (
     <div className="mx-auto px-2 py-6 md:py-8 float-container-header">
       <div className="float-child">
-        <Link href="#header" scroll={false}>
+        <Link href="#header" scroll={false} passHref={true}>
           <Image
             src={logo}
             alt="Logo"
@@ -27,22 +27,22 @@ export default function Navbar() {
         </Link>
       </div>
       <div className="flex  md:flex-row justify-between float-child">
-        <Link href="#about" scroll={false}>
+        <Link href="#about" scroll={false} passHref={true}>
           <button>
             <a>About</a>
           </button>
         </Link>
-        <Link href="#experience" scroll={false}>
+        <Link href="#experience" scroll={false} passHref={true}>
           <button>
             <a>Experience</a>
           </button>
         </Link>
-        <Link href="#projects" scroll={false}>
+        <Link href="#projects" scroll={false} passHref={true}>
           <button>
             <a>Projects</a>
           </button>
         </Link>
-        <Link href="#contact" scroll={false}>
+        <Link href="#contact" scroll={false} passHref={true}>
           <button>
             <a>Contact</a>
           </button>
