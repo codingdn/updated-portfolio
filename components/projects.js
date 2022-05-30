@@ -5,6 +5,8 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import FolderIcon from "@mui/icons-material/Folder";
 import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
+import LinkIcon from "@mui/icons-material/Link";
+import GitHubIcon from "@mui/icons-material/GitHub";
 import data from "../data/project.json";
 
 function projects() {
@@ -28,12 +30,18 @@ function projects() {
               <FolderIcon sx={{ fontSize: 60 }} className="iconColors" />
               <div>
                 <h2 className="title">{project.title}</h2>
-                <h3>{project.smallDescription}</h3>
+                <h3 className="experience-desc">{project.smallDescription}</h3>
               </div>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography>{project.link}</Typography>
-              <Typography>{project.githubLink}</Typography>
+              <div>
+                <a href={project.githubLink}>
+                  <GitHubIcon sx={{ fontSize: 50 }} className="project-icons" />
+                </a>
+                <a href={project.link}>
+                  <LinkIcon sx={{ fontSize: 50 }} />
+                </a>
+              </div>
             </AccordionDetails>
           </Accordion>
         </div>
