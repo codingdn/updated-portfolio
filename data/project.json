@@ -1,29 +1,24 @@
 {
-    "projects": [
-        {
-            "title": "Personal Portfolio",
-            "technologies": [
-                "React",
-                "Next.js",
-                "Tailwind CSS",
-                "Material UI"
-            ],
-            "smallDescription": "Personal portfolio website to showcase projects and experience",
-            "link": "https://daneilnguyen.netlify.app/",
-            "githubLink": "https://github.com/codingdn/updated-portfolio"
-        },
-        {
-            "title": "Statistically, what would be the best Pokemon team Ash could assemble?",
-            "technologies": [
-                "Python",
-                "Jupyter",
-                "Pandas",
-                "MatplotLib",
-                "SKLearn"
-            ],
-            "smallDescription": "Data science project to help assemble a powerful team of Pokemon to use in battle",
-            "link": "https://codingdn.github.io/codingdn/cmsc320final",
-            "githubLink": "https://github.com/codingdn/codingdn"
-        }
-    ]
+  "projects": [
+    {
+      "title": "Personal Portfolio",
+      "smallDescription": "Personal portfolio website to showcase projects and experience",
+      "link": "https://daneilnguyen.netlify.app/",
+      "githubLink": "https://github.com/codingdn/updated-portfolio",
+      "technologies": [
+        "React",
+        "Next.JS",
+        "Material UI",
+        "Tailwind CSS",
+        "Netlify"
+      ]
+    },
+    {
+      "title": "Statistically, what would be the best Pokemon team Ash could assemble?",
+      "smallDescription": "Data science project to help assemble a powerful team of Pokemon to use in battle",
+      "link": "https://codingdn.github.io/codingdn/cmsc320final",
+      "githubLink": "https://github.com/codingdn/codingdn",
+      "technologies": ["Python", "Jupyter", "Pandas", "MatplotLib", "SKLearn"]
+    }
+  ]
 }
