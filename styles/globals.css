@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/*need to fix issues with float containers for reponsive/mobile view*/
+
 html,
 body {
   padding: 0;
@@ -21,13 +23,6 @@ a {
   box-sizing: border-box;
 }
 
-
-#page-wrap {
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-
-
 button {
   font-size: 32px;
   font-weight: "bold";
@@ -35,7 +30,7 @@ button {
 
 .float-container {
   display: grid;
-  grid-template-columns: 4fr 2fr;
+  grid-template-columns: 2fr 1fr;
 }
 
 .float-container-experience {
@@ -50,7 +45,6 @@ button {
 
 .float-child {
   flex: 1;
-  /* float: right; */
 }
 
 .title {
@@ -111,8 +105,8 @@ button {
   width: 36px;
   height: 30px;
   left: 36px;
-  top: 36px;
-  margin-right: 2em;
+  top: 16px;
+  margin-right: 3em;
   float: right;
 }
 
@@ -173,4 +167,21 @@ button {
 
 .bm-item:hover {
   color: #a7f3ff;
+}
+
+@media (max-width: 600px) {
+  .float-container {
+    display: flex;
+    flex-direction: column;
+  }
+  body {
+    margin: 0px auto;
+  }
+  .float-child {
+    margin-top: 20px;
+  }
+  .float-container-experience {
+    display: flex;
+    flex-direction: column;
+  }
 }

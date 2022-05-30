@@ -31,7 +31,7 @@ export default function Home() {
               <h2 className={styles.subtext}>
                 Aspiring Software Developer. Eternal Learner.
               </h2>
-              <div id="social-links">
+              <div id="social-links" className={styles.socialLinks}>
                 <a
                   href="https://www.linkedin.com/in/daneil-nguyen/"
                   target="_blank"
