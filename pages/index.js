@@ -118,7 +118,7 @@ export default function Home() {
           <br />
           <h3 className={styles.contactText}>
             Whether this be an opportunity of just a simple question, feel free
-            to contact met at:
+            to contact me at:
           </h3>
           <br />
           <h3 className={styles.email}>
