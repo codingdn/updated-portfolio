@@ -44,7 +44,7 @@ function projects() {
                 <GitHubIcon sx={{ fontSize: 50 }} className="project-icons" />
               </a>
               <a href={project.link}>
-                <LinkIcon sx={{ fontSize: 50 }} />
+                <LinkIcon sx={{ fontSize: 50 }} className="project-icons"  />
               </a>
             </div>
           </AccordionDetails>

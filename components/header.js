@@ -28,26 +28,26 @@ export default function Navbar() {
       </div>
       <div className="flex  md:flex-row justify-between float-child">
         <Link href="#about" scroll={false} passHref={true}>
-          <button>
-            <a>About</a>
+          <button className="header-hover">
+            About
           </button>
         </Link>
         <Link href="#experience" scroll={false} passHref={true}>
-          <button>
-            <a>Experience</a>
+          <button className="header-hover">
+            Experience
           </button>
         </Link>
         <Link href="#projects" scroll={false} passHref={true}>
-          <button>
-            <a>Projects</a>
+          <button className="header-hover">
+            Projects
           </button>
         </Link>
         <Link href="#contact" scroll={false} passHref={true}>
-          <button>
-            <a>Contact</a>
+          <button className="header-hover">
+            Contact
           </button>
         </Link>
-        <button className="resume-button">
+        <button className="resume-button header-hover">
           <a href="https://drive.google.com/file/d/1ks4cc_6NgRBpCGqORmz6W9LW97fbnT3c/view?usp=sharing">
             Resume
           </a>

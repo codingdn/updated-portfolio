@@ -103,3 +103,11 @@ button {
 .project-icons {
   margin-right: 20px;
 }
+
+.project-icons:hover {
+  color: #a7f3ff;
+}
+
+.header-hover:hover {
+  color: #a7f3ff;
+}
