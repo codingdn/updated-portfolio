@@ -20,27 +20,23 @@ export default function Navbar() {
       </div>
       <div className="flex  md:flex-row justify-between float-child">
         <Link href="#about" scroll={false} passHref={true}>
-          <button>
-            <a>About</a>
-          </button>
+          <button className="header-hover">About</button>
         </Link>
         <Link href="#experience" scroll={false} passHref={true}>
-          <button>
-            <a>Experience</a>
-          </button>
+          <button className="header-hover">Experience</button>
         </Link>
         <Link href="#projects" scroll={false} passHref={true}>
-          <button>
-            <a>Projects</a>
-          </button>
+          <button className="header-hover">Projects</button>
         </Link>
         <Link href="#contact" scroll={false} passHref={true}>
-          <button>
-            <a>Contact</a>
-          </button>
+          <button className="header-hover">Contact</button>
         </Link>
-        <button className="resume-button">
-          <a href="https://drive.google.com/file/d/1ks4cc_6NgRBpCGqORmz6W9LW97fbnT3c/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+        <button className="resume-button header-hover">
+          <a
+            href="https://drive.google.com/file/d/1ks4cc_6NgRBpCGqORmz6W9LW97fbnT3c/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Resume
           </a>
         </button>
@@ -63,7 +59,7 @@ export default function Navbar() {
     //     </button>
     //   </Link>
     //   <Link href="#contact" scroll={false} passHref={true} className="menu-item">
-    //     <button> 
+    //     <button>
     //       <a>Contact</a>
     //     </button>
     //   </Link>

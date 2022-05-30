@@ -90,6 +90,14 @@ button {
   margin-right: 20px;
 }
 
+.project-icons:hover {
+  color: #a7f3ff;
+}
+
+.header-hover:hover {
+  color: #a7f3ff;
+}
+
 /* Position and sizing of burger button */
 .bm-burger-button {
   position: fixed;
