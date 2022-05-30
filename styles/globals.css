@@ -45,20 +45,6 @@ button {
   flex: 1;
 }
 
-.project-divs {
-  background-color: #2d3a55;
-  font-family: "Source Code Pro", monospace;
-  font-weight: "bold";
-  color: #ffffff;
-}
-
-.experience-divs {
-  background-color: #2d3a55;
-  font-family: "Source Code Pro", monospace;
-  font-weight: "bold";
-  color: #ffffff;
-}
-
 .title {
   font-size: 36px;
 }

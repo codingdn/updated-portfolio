@@ -40,10 +40,10 @@ function projects() {
           </AccordionSummary>
           <AccordionDetails>
             <div>
-              <a href={project.githubLink}>
+              <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
                 <GitHubIcon sx={{ fontSize: 50 }} className="project-icons" />
               </a>
-              <a href={project.link}>
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
                 <LinkIcon sx={{ fontSize: 50 }} />
               </a>
             </div>

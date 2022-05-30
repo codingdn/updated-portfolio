@@ -48,7 +48,7 @@ export default function Navbar() {
           </button>
         </Link>
         <button className="resume-button">
-          <a href="https://drive.google.com/file/d/1ks4cc_6NgRBpCGqORmz6W9LW97fbnT3c/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/1ks4cc_6NgRBpCGqORmz6W9LW97fbnT3c/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             Resume
           </a>
         </button>

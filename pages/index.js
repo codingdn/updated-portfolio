@@ -33,13 +33,13 @@ export default function Home() {
                 Aspiring Software Developer. Eternal Learner.
               </h2>
               <div id="social-links">
-                <a href="https://www.linkedin.com/in/daneil-nguyen/">
+                <a href="https://www.linkedin.com/in/daneil-nguyen/" target="_blank" rel="noopener noreferrer">
                   <LinkedInIcon className="iconColors" sx={{ fontSize: 50 }} />
                 </a>
-                <a href="https://github.com/codingdn">
+                <a href="https://github.com/codingdn" target="_blank" rel="noopener noreferrer">
                   <GitHubIcon className="iconColors" sx={{ fontSize: 50 }} />
                 </a>
-                <a href="mailto: dn11601@gmail.com.com">
+                <a href="mailto: dn11601@gmail.com.com" target="_blank" rel="noopener noreferrer">
                   <EmailIcon className="iconColors" sx={{ fontSize: 50 }} />
                 </a>
               </div>
