@@ -122,7 +122,7 @@ export default function Home() {
           </h3>
           <br />
           <h3 className={styles.email}>
-            <a href="mailto: dn11601@gmail.com.com">dn11601@gmail.com</a>
+            <u><a href="mailto: dn11601@gmail.com.com">dn11601@gmail.com</a></u>
           </h3>
         </div>
       </main>
