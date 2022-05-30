@@ -15,36 +15,40 @@ function projects() {
   data.projects.forEach((project) =>
     items.push(
       <>
-        <div className="project-divs">
-          <Accordion className="project-divs">
-            <AccordionSummary
-              expandIcon={
-                <AddCircleOutlineIcon
-                  sx={{ fontSize: 40 }}
-                  className="iconColors"
-                />
-              }
-              aria-controls="panel1a-content"
-              id="panel1a-header"
-            >
-              <FolderIcon sx={{ fontSize: 60 }} className="iconColors" />
-              <div>
-                <h2 className="title">{project.title}</h2>
-                <h3 className="experience-desc">{project.smallDescription}</h3>
-              </div>
-            </AccordionSummary>
-            <AccordionDetails>
-              <div>
-                <a href={project.githubLink}>
-                  <GitHubIcon sx={{ fontSize: 50 }} className="project-icons" />
-                </a>
-                <a href={project.link}>
-                  <LinkIcon sx={{ fontSize: 50 }} />
-                </a>
-              </div>
-            </AccordionDetails>
-          </Accordion>
-        </div>
+        <Accordion
+          sx={{
+            backgroundColor: "#2d3a55",
+            fontFamily: "Source Code Pro, monospace",
+            color: "white",
+          }}
+        >
+          <AccordionSummary
+            expandIcon={
+              <AddCircleOutlineIcon
+                sx={{ fontSize: 40 }}
+                className="iconColors"
+              />
+            }
+            aria-controls="panel1a-content"
+            id="panel1a-header"
+          >
+            <FolderIcon sx={{ fontSize: 60 }} className="iconColors" />
+            <div>
+              <h2 className="title">{project.title}</h2>
+              <h3 className="experience-desc">{project.smallDescription}</h3>
+            </div>
+          </AccordionSummary>
+          <AccordionDetails>
+            <div>
+              <a href={project.githubLink}>
+                <GitHubIcon sx={{ fontSize: 50 }} className="project-icons" />
+              </a>
+              <a href={project.link}>
+                <LinkIcon sx={{ fontSize: 50 }} />
+              </a>
+            </div>
+          </AccordionDetails>
+        </Accordion>
         <br />
       </>
     )

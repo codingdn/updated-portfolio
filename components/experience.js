@@ -33,7 +33,7 @@ function experience() {
               <h2 className="experience-subpos">{item.title}</h2>
               <h2 className="experience-subdur">{item.duration}</h2>
               {posDescriptionItems}
-              <br/>
+              <br />
             </div>
           );
         })
@@ -43,7 +43,13 @@ function experience() {
 
     items.push(
       <>
-        <Accordion className="experience-divs">
+        <Accordion
+          sx={{
+            backgroundColor: "#2d3a55",
+            fontFamily: "Source Code Pro, monospace",
+            color: "white",
+          }}
+        >
           <AccordionSummary
             expandIcon={
               <AddCircleOutlineIcon
@@ -55,7 +61,7 @@ function experience() {
             id="panel1a-header"
           >
             <div className="float-container-experience">
-              <div className="float-child experience-image"> 
+              <div className="float-child experience-image">
                 <Image
                   src={images[experience.work].img}
                   alt={experience.work}
