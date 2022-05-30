@@ -26,18 +26,19 @@ function experience() {
       ? experience.positions.forEach((item) => {
           let posDescriptionItems = [];
           item.description.forEach((i) =>
-            posDescriptionItems.push(<li>{i}</li>)
+            posDescriptionItems.push(<li className="experience-desc">{i}</li>)
           );
           descriptionItems.push(
             <div>
-              <h2>{item.title}</h2>
-              <h2>{item.duration}</h2>
+              <h2 className="experience-subpos">{item.title}</h2>
+              <h2 className="experience-subdur">{item.duration}</h2>
               {posDescriptionItems}
+              <br/>
             </div>
           );
         })
       : experience.description.forEach((item) =>
-          descriptionItems.push(<li>{item}</li>)
+          descriptionItems.push(<li className="experience-desc">{item}</li>)
         );
 
     items.push(
@@ -54,7 +55,7 @@ function experience() {
             id="panel1a-header"
           >
             <div className="float-container-experience">
-              <div className="float-child"> 
+              <div className="float-child experience-image"> 
                 <Image
                   src={images[experience.work].img}
                   alt={experience.work}
