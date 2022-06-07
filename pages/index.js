@@ -117,7 +117,7 @@ export default function Home() {
           </h3>
           <br />
           <h3 className={styles.contactText}>
-            Whether this be an opportunity of just a simple question, feel free
+            Whether this be an opportunity or just a simple question, feel free
             to contact me at:
           </h3>
           <br />
