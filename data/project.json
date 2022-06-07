@@ -16,8 +16,8 @@
     {
       "title": "Statistically, what would be the best Pokemon team Ash could assemble?",
       "smallDescription": "Data science project to help assemble a powerful team of Pokemon to use in battle",
-      "link": "https://codingdn.github.io/codingdn/cmsc320final",
-      "githubLink": "https://github.com/codingdn/codingdn",
+      "link": "https://codingdn.github.io/cmsc320final/cmsc320final",
+      "githubLink": "https://github.com/codingdn/cmsc320final",
       "technologies": ["Python", "Jupyter", "Pandas", "MatplotLib", "SKLearn"]
     }
   ]
